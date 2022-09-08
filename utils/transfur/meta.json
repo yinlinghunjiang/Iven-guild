@@ -1,0 +1,9 @@
+{
+    "name": "TailApi",
+    "version": "0.1.0",
+    "author": [
+        "Silverowo"
+    ],
+    "desc": "每日吸毛bot相关组件",
+    "enable": true
+}
