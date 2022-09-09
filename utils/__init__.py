@@ -17,7 +17,7 @@ def to_async(func):
     """
 
     @functools.wraps(func)
-    async def wrapper(*args, **kwargs):
+    async def wrapper(*args, **kwargs)->None:
         return await asyncio.get_running_loop().run_in_executor(
             None, functools.partial(func, *args, **kwargs)
         )
